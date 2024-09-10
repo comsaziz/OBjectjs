@@ -77,29 +77,32 @@ characters = [
     },
 
   ];
-// let beye = characters.find(ex => ex.eye_color === "blue").name;
-//  console.log(beye);
-
-//  let cg = characters.find(ex => ex.mass > 50).gender;
-//  console.log(cg);
-
-//  let ge = characters.find(ex => ex.height < 200)
-//  console.log(ge);
-
-//  let all = characters.filter(ex => ex.gender == "male")
-//  console.log(all);
-// let allname = characters.map(ex => ex.name);
-// console.log(allname);
-
-// let allhieght = characters.map(ex => ex.height);
-// console.log(allhieght);
 
 
-// let sortmass = characters.sort((a, b) => a.mass - b.mass);
-// console.log(sortmass);
+  
+let beye = characters.find(ex => ex.eye_color === "blue").name;
+ console.log(beye);
 
-// let sortmass1 = characters.sort((a, b) => b.mass - a.mass);
-// console.log(sortmass1);
+ let cg = characters.find(ex => ex.mass > 50).gender;
+ console.log(cg);
+
+ let ge = characters.find(ex => ex.height < 200)
+ console.log(ge);
+
+ let all = characters.filter(ex => ex.gender == "male")
+ console.log(all);
+let allname = characters.map(ex => ex.name);
+console.log(allname);
+
+let allhieght = characters.map(ex => ex.height);
+console.log(allhieght);
+
+
+let sortmass = characters.sort((a, b) => a.mass - b.mass);
+console.log(sortmass);
+
+let sortmass1 = characters.sort((a, b) => b.mass - a.mass);
+console.log(sortmass1);
 
  let masst = characters.every(ex => ex.mass > 40);
  console.log(masst);
